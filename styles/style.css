@@ -1,0 +1,46 @@
+.navigation .menu > a:hover {
+    background-color: black;
+    color: white;
+}
+.navigation{
+    background-color: white;
+}
+.content{
+    background-color: black;
+}
+/* mission */
+.mission > .item_3 > h2{
+    background-color: transparent;
+    color:#FF4D4D;
+}
+/* projects */
+.projects > .projects_item > .download {
+    border: 1px solid rgb(129, 127, 127);
+    background-color: #213C86;
+    color: wheat;
+    margin-top: auto;
+
+
+}
+    
+.projects > .projects_item > h2,
+.projects > .projects_item > article,
+.projects > .projects_item > button {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.98);
+    font-weight: bold;
+}
+
+.projects > .projects_item > .download {
+    align-self: center; 
+    padding: 0.3em;
+    border-radius: 40px;
+}
+.projects > .projects_item > .download:hover {
+    background-color: #213C86;
+    color: #FF4D4D;
+}
+
+@media screen and (max-width: 762px) {
+
+}

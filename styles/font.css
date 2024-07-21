@@ -1,0 +1,111 @@
+*{
+    font-family: "Titillium Web", sans-serif;
+
+}
+.navigation > .logo{
+    font-size: 1.3em;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.navigation > .menu > a {
+    font-size: 1.3em;
+    font-family: "Kode Mono", monospace;
+    text-decoration: none; 
+    color: inherit; 
+}
+/* Content Home */
+
+.Home > .item_2 > h1{
+    font-size: 9em;
+    font-family: "Playfair Display", serif;
+
+    font-weight: 700;
+    font-style: normal;
+}
+.Home > .item_2 > h3{
+    font-size: 1.4em;
+    font-family: "Kode Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+.Home > .item_2 > p{
+ 
+    font-weight: 400;
+}
+
+
+.Home > .item_2 >.cta-container> .primary, 
+.Home > .item_2 > .cta-container>.secondary{
+    padding: 0em 0.3em;
+    margin: 0.8em 0.5em 0em 0em;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-size: 2em;
+    background-color: white;
+    color:#213C86;
+   
+}
+
+.Home > .item_2 >.cta-container> .primary:hover, 
+.Home > .item_2 > .cta-container>.secondary:hover{
+    background-color: #213C86;
+    color: #FFD150;
+}
+
+
+
+/* mission */
+.mission > .item_3 > h2{
+    font-size: 6em;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mission .item_1 > h2{
+    font-size: 6em
+}
+/* approach */
+.approach_item h3{
+    font-size: 3em;
+
+}
+.approach_item :not(h3){
+    font-size: em;
+
+}
+
+/* prijects */
+.projects > .projects_item > .download {
+    font-size: 2em;
+
+}
+
+
+
+@media screen and (max-width: 762px){
+    .Home > .item_2 > h1{
+    font-size: 3em;
+    }
+    .Home > .item_2 > p{
+        font-size: 0.3em;
+    }
+    .Home > .item_2 > h3{
+        font-size: 1em;
+    }
+
+    .Home > .item_2 >.cta-container> .primary, 
+    .Home > .item_2 > .cta-container>.secondary{
+        font-size: 1em;
+    }
+    .mission .item_3{
+    font-size: 0.7em;
+    }
+    .mission .item_1 > h2{
+        font-size: 3em
+    }
+    .approach > .quote{
+        font-size: 1em;
+    }
+}
